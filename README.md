@@ -1,6 +1,6 @@
 Dart implementation of Conflict-free Replicated Data Types (CRDTs).
 
-This project is heavily influenced by James Long's talk [CRTDs for Mortals](https://www.dotconferences.com/2019/12/james-long-crdts-for-mortals) and includes a Dart-native implementation of Hybrid Local Clocks (HLC) based the paper [Logical Physical Clocks and Consistent Snapshots in Globally Distributed Databases](https://cse.buffalo.edu/tech-reports/2014-04.pdf).
+This project is heavily influenced by James Long's talk [CRDTs for Mortals](https://www.dotconferences.com/2019/12/james-long-crdts-for-mortals) and includes a Dart-native implementation of Hybrid Local Clocks (HLC) based the paper [Logical Physical Clocks and Consistent Snapshots in Globally Distributed Databases](https://cse.buffalo.edu/tech-reports/2014-04.pdf).
 
 It has [zero external dependencies](https://github.com/cachapa/crdt/blob/master/pubspec.yaml), so it should run everywhere where Dart runs.
 
@@ -12,7 +12,7 @@ The `Crdt` class works as a layer on top of a map. The simplest way to experimen
 import 'package:crdt/crdt.dart';
 
 main() {
-  var crdt = Crtd.fromMap({});
+  var crdt = Crdt.fromMap({});
 }
 ```
 
